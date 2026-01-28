@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Vlogging Channel</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+    * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f4f4;
+}
+
+/* Header */
+.header {
+    background: #000;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+}
+
+/* Navbar */
+.navbar {
+    background: #ff0000;
+    padding: 12px;
+    text-align: center;
+}
+
+.navbar a {
+    color: white;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero */
+.hero {
+    background: linear-gradient(to right, #ff416c, #ff4b2b);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    background: white;
+    color: #ff4b2b;
+    padding: 10px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Videos */
+.videos {
+    padding: 40px;
+    text-align: center;
+}
+
+.video-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* Footer */
+.footer {
+    background: #000;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+    </style>
+
+</head>
+<body>
+
+    <!-- Header -->
+    <header class="header">
+        <h1>My Vlogging Channel</h1>
+        <p>Travel | Lifestyle | Daily Vlogs</p>
+    </header>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <a href="#">Home</a>
+        <a href="#">Videos</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <h2>Welcome to My World 🌍</h2>
+        <p>New vlogs every week. Don’t forget to subscribe!</p>
+        <a href="#" class="btn">Subscribe</a>
+    </section>
+
+    <!-- Video Section -->
+    <section class="videos">
+        <h2>Latest Videos</h2>
+
+        <div class="video-container">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x180">
+                <h3>My First Vlog</h3>
+                <p>Daily life vlog</p>
+            </div>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/300x180">
+                <h3>Travel Vlog</h3>
+                <p>Beautiful places</p>
+            </div>
+
+            <div class="card">
+                <img src="https://via.placeholder.com/300x180">
+                <h3>Food Vlog</h3>
+                <p>Street food tour</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>© 2026 My Vlogging Channel | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>
